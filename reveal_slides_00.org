@@ -1,0 +1,50 @@
+#+REVEAL_INIT_OPTIONS: transition:'slide', keyboard:{67: function() { RevealChalkboard.toggleNotesCanvas() }, 66: function() { RevealChalkboard.toggleChalkboard() }, 46: function() { RevealChalkboard.clear() }, 8: function() { RevealChalkboard.reset() }, 68: function() { RevealChalkboard.download() }, 88: function() { RevealChalkboard.colorNext() }, 89: function() { RevealChalkboard.colorPrev() }}
+#+OPTIONS: toc:nil author:nil date:t email:nil timestamp:nil
+#+REVEAL_THEME: White
+#+REVEAL_TITLE_SLIDE_BACKGROUND: https://upload.wikimedia.org/wikipedia/commons/0/09/Apollo_17_Full_Earth_photo.jpg
+#+REVEAL_TITLE_SLIDE_BACKGROUND_OPACITY:0.3
+#+REVEAL_EXTRA_CSS: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
+#+REVEAL_PLUGINS:(chalkboard highlight zoom)
+#+Title:A title
+#+Subtitle:subtitle
+#+Date: date
+
+* Section slide
+  #+attr_html: :height 500px
+  https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cosmos_bipinnatus_pink%2C_Burdwan%2C_West_Bengal%2C_India_10_01_2013.jpg/1920px-Cosmos_bipinnatus_pink%2C_Burdwan%2C_West_Bengal%2C_India_10_01_2013.jpg
+  
+** A vertical slide from 1st section
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+#+REVEAL: split
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+** A vertical slide with code highlight
+
+   #+BEGIN_SRC bash
+   for i in *.txt
+   do
+   echo ${i%.*}
+   done
+   #+END_SRC
+   
+* Another section slide
+** Vertical slide for section 2
+   With a table
+   | Header | Colum | Column |
+   |--------+-------+--------|
+   | row    | entry | entry  |
+   | row    | entry | entry  |
+** Vertical slide for section 2
+   With a list:
+   #+ATTR_REVEAL: :frag (appear appear appear appear)
+   + fisrt 
+   + second
+   + third
+   + fourth
+
+
+  
+
+
+
